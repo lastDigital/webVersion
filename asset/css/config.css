@@ -1,0 +1,23 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {  
+  -webkit-appearance: none;   margin: 0; 
+}
+::selection {
+  color:rgb(255, 255, 255);
+  background:rgb(255, 72, 0);
+}
+::-moz-selection {
+  color:rgb(255, 255, 255);
+  background:rgb(255, 153, 0);
+}
+.mobilemenu{
+  text-decoration: none;
+  color: black;
+}
+svg{
+  color: black;
+
+}
+a{
+  text-decoration: none;
+}

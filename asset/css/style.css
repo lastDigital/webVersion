@@ -1,0 +1,64 @@
+#HesapB{
+    font-size: 30px;
+}
+
+@media screen and (min-width:850px) {
+#hesabim_pp{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 140px;
+    height: 120px;
+    border-radius: 22px;
+}
+#hesabim_img{
+    padding-top: 10px;
+    padding-left: 9px;
+}
+#hesabim_hr{
+ margin-top: 20px;
+}
+#hesabim_mail{
+    margin-top: 25px;
+    margin-left: -25px;
+}
+#menu_icerik{
+    margin-left: 12px;
+    border-left: 2px solid #797979 ;
+    height: 1050px;
+}
+.menu_islem{
+    margin-top: 5px;
+}
+#footermobile{
+    display: none;
+}
+#hesabim_mail2{
+    display: none;
+}
+#ayirici_menu{
+    display: none;
+}
+#mobileLogo{
+    display: none;
+}
+}
+@media screen and (max-width:850px) {
+    #footermobile{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align:center;
+    }
+    #hesabim_img{
+        display: none;
+    }
+    #hesabim_mail{
+        display: none;
+    }
+    #offcanvasRight2{
+       display: none;
+    }
+    #DesktopLogo{
+        display: none;
+    }
+}
