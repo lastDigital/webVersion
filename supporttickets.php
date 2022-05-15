@@ -1,0 +1,1 @@
+destek sistemi yakinda
